@@ -1,3 +1,6 @@
+import matplotlib
+matplotlib.use("Agg")
+
 from flask import Flask, render_template, request
 import joblib
 import numpy as np
@@ -5,6 +8,7 @@ import pandas as pd
 import os
 import matplotlib.pyplot as plt
 import seaborn as sns
+
 from sklearn.datasets import load_wine
 
 app = Flask(__name__)
@@ -102,6 +106,5 @@ def predict():
 # RUN SERVER (LAST!)
 # =====================
 if __name__ == "__main__":
-    app.run(debug=True)
-port = int(os.environ.get("PORT", 5000))
+    port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
