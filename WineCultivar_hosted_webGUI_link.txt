@@ -2,5 +2,5 @@ Name: Richard Testimony Temijuayolo
 Matric Number: 250000395
 Machine Learning Algorithm Used: Random Forest Regressor
 Model persistence method used: Joblib & SVM(classification); KMeans, Agglomerative, DBSCAN(clustering)
-Live URL of the hosted application: https://wine-cultivar-prediction.onrender.com/
+Live URL of the hosted application: https://wine-cultivar-prediction-vmstxoarnjex7cg9duedrp.streamlit.app/
 GitHub repository link: https://github.com/Richard-04/Wine-Cultivar-Prediction 
