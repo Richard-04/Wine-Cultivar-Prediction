@@ -1,9 +1,7 @@
+streamlit
 numpy
 pandas
 scikit-learn
 joblib
-flask
-gunicorn
 matplotlib
 seaborn
-setuptools
